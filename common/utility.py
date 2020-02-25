@@ -1,7 +1,6 @@
 import os, time
 import socket
 
-
 # 往csv文件中写入测试结果
 def write_report(case, result):
     now = time.strftime('%Y-%m-%d %H:%M:%S')
