@@ -1,5 +1,5 @@
-# WNSCI
-利用woniusales系统做的CI的demo,梳理持续集成各个环节的相关知识。
+# WoniuSalesCI
+使用python实现从获取代码到环境升级的一连串持续集成过程。
 
 ## 涉及的点
 1. svn获取最新代码
@@ -9,5 +9,3 @@
 5. 运行test下自动测试脚本
 6. 将测试结果生成测试报告
 7. 最后将测试报告email给指定人员
-## 完善
-1. svn路径/tomcat路径等参数通过configparser配置文件方式实现，方便维护使用
